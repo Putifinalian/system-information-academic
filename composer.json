@@ -13,7 +13,7 @@
         "php": "^7.4 || ^8.0",
         "codeigniter4/framework": "^4.0",
         "codeigniter4/shield": "^1.0@beta",
-        "dginanjar/codeigniter-vite": "dev-main",
+        "monster010/codeigniter-vite-plugin": "^0.0.5",
         "tatter/relations": "^2.1"
     },
     "require-dev": {

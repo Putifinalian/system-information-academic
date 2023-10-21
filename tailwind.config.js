@@ -1,11 +1,16 @@
+import typography from "@tailwindcss/typography";
+import flowbite from "flowbite/plugin";
+
 /** @type {import('tailwindcss').Config} */
 
-export default {
+module.exports = {
   content: [
-    "app/Views/**/*.{html,js}"
+    "./app/Views/**/*.php",
+    "./resources/**/*.js",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [typography, flowbite],
+};

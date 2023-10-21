@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a836c400280f0ea179e853348fe9de1",
+    "content-hash": "357610d4dfca355a34afb5312170ff18",
     "packages": [
         {
             "name": "codeigniter4/framework",
@@ -209,42 +209,6 @@
             "time": "2023-04-26T08:31:55+00:00"
         },
         {
-            "name": "dginanjar/codeigniter-vite",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dginanjar/codeigniter-vite.git",
-                "reference": "7cb0316d61c1a03f2d3f2c2a639e25082c937c66"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dginanjar/codeigniter-vite/zipball/7cb0316d61c1a03f2d3f2c2a639e25082c937c66",
-                "reference": "7cb0316d61c1a03f2d3f2c2a639e25082c937c66",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dginanjar\\CodeIgniterVite\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Integrate Vite to CodeIgniter",
-            "keywords": [
-                "codeigniter",
-                "vite"
-            ],
-            "support": {
-                "issues": "https://github.com/dginanjar/codeigniter-vite/issues",
-                "source": "https://github.com/dginanjar/codeigniter-vite/tree/main"
-            },
-            "time": "2023-06-12T10:54:51+00:00"
-        },
-        {
             "name": "laminas/laminas-escaper",
             "version": "2.12.0",
             "source": {
@@ -305,6 +269,46 @@
                 }
             ],
             "time": "2022-10-10T10:11:09+00:00"
+        },
+        {
+            "name": "monster010/codeigniter-vite-plugin",
+            "version": "v0.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/monster010/codeigniter-vite-plugin.git",
+                "reference": "808212fc7b28ee0aac041c43797d7b877761fd68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/monster010/codeigniter-vite-plugin/zipball/808212fc7b28ee0aac041c43797d7b877761fd68",
+                "reference": "808212fc7b28ee0aac041c43797d7b877761fd68",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "monster010\\CodeIgniterVite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "monster010",
+                    "email": "git@monster010.de"
+                }
+            ],
+            "description": "CodeIgniter Plugin for Vite (CodeIgniter Side)",
+            "support": {
+                "issues": "https://github.com/monster010/codeigniter-vite-plugin/issues",
+                "source": "https://github.com/monster010/codeigniter-vite-plugin/tree/v0.0.5"
+            },
+            "time": "2023-10-02T16:33:28+00:00"
         },
         {
             "name": "psr/log",
@@ -2472,8 +2476,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "codeigniter4/shield": 10,
-        "dginanjar/codeigniter-vite": 20
+        "codeigniter4/shield": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
